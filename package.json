@@ -1,0 +1,21 @@
+{
+  "name": "tssol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "key-gen": "npx esrun ./keygen.ts",
+    "airdrop": "npx esrun ./airdrop.ts",
+    "spl-init": "npx esrun ./spl_init.ts",
+    "spl-mint": "npx esrun ./spl_mint.ts",
+    "spl-transfer": "npx esrun ./spl_transfer.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3"
+  }
+}
